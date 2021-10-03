@@ -1,7 +1,7 @@
-CREATE SCHEMA `proyecto2Revistas`;
-CREATE USER proyecto2Revistas IDENTIFIED BY '58650//813@L@Mg';
-GRANT ALL PRIVILEGES ON ProyectoRevistas.* TO usuarioProyecto2;
-USE `proyecto2Revistas`;
+CREATE SCHEMA `proyecto_Revistas`;
+CREATE USER usuarioRevistas IDENTIFIED BY '58650//813@L@Mg';
+GRANT ALL PRIVILEGES ON proyecto_Revistas.* TO usuarioRevistas;
+USE `proyecto_Revistas`;
 
 CREATE TABLE `usuario` (
 `nombre_de_usuario` VARCHAR(100) NOT NULL,
